@@ -1,0 +1,17 @@
+{
+  "name": "electron-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
+  },
+  "author": "Shoaib Naseer",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^23.0.0",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2"
+  }
+}
